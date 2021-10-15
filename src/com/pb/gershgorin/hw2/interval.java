@@ -8,8 +8,7 @@ public class interval {
         int operand1;
          System.out.println("Пожалуйста, введите число от 0 до 100:");
          operand1 = scan.nextInt();
-          if (operand1 >= 0 && operand1 <= 100) {
-              if (operand1 >= 0 && operand1 <= 14) {
+             if (operand1 >= 0 && operand1 <= 14) {
                   System.out.println("Вы попали в диапазон от 0 до 14");
               }
               if (operand1 >= 15 && operand1 <= 35) {
@@ -21,7 +20,10 @@ public class interval {
               if (operand1 >= 51 && operand1 <= 100) {
                   System.out.println("Вы попали в диапазон от 51 до 100");
               }
+              if (operand1 >100) { System.out.println("Введенное число больше 100"); }
+
           }
 
     }
-}
+
+
