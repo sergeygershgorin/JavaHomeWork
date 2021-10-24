@@ -16,6 +16,7 @@ public class bingo {
             input = scan.nextInt();
             if(input > 100)
             {break;}
+            if (input<operand1){System.out.println("Введенное число меньше загаданного");} else {System.out.println("Введенное число больше загаданного");}
             attempt++;
         } while (operand1 != input);
         System.out.println("Спасибо за игру! Вы сделали попыток:" + attempt--);}
