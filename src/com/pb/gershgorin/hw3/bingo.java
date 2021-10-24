@@ -13,10 +13,10 @@ public class bingo {
         int attempt = 0;
         System.out.println("Пожалуйста, угадайте число от 0 до 100, для выхода из игры введите число больше 100:");
         do {
-            attempt++;
             input = scan.nextInt();
             if(input > 100)
             {break;}
+            attempt++;
         } while (operand1 != input);
-        System.out.println("Спасибо за игру! Вы сделали попыток:" + attempt);}
+        System.out.println("Спасибо за игру! Вы сделали попыток:" + attempt--);}
     }
