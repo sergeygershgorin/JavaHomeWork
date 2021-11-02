@@ -14,20 +14,20 @@ public class Anagram {
         s = s.toLowerCase();
         char[] first = f.toCharArray();
         char[] second = s.toCharArray();
-/*
-        for (int i = 0; i < first.length; i++) {
-            if (first[i] == " ") {
-                first[i] = "";
+
+  /*      for (int i = 0; i < first.length; i++) {
+            if (first[i] == ' ') {
+                first[i] = '';
             }
-            if (first[i] == ".") {
-                first[i] = "";
+            if (first[i] == '.') {
+                first[i] = '';
             }
-            if (first[i] == ",") {
-                first[i] = "";
+            if (first[i] == ',') {
+                first[i] = '';
             }
         }
 
-  */
+*/
         Arrays.sort(first);
         Arrays.sort(second);
         if (first.length != second.length) {result = "количество символов не совпадает, это не анаграмма";}
