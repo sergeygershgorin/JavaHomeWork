@@ -30,28 +30,7 @@ import java.lang.reflect.Constructor;
                     ((Veterinarian) obj).treatAnimal(animal);
                 }
             }
-            System.out.println("---------------------");
- /*           if (Individual[0].equals(Individual[3])) {
-                System.out.println("Животное " + Individual[0].getName() + " является клоном животного " + Individual[3].getName());
-            }
-            else {
-                System.out.println("Животное " + Individual[0].getName() + " НЕ является клоном животного " + Individual[3].getName());
-            }
-            System.out.println("---------------------");
-            if (Individual[3].equals(Individual[4])) {
-                System.out.println("Животное " + Individual[3].getName() + " является клоном животного " + Individual[4].getName());
-            }
-            else {
-                System.out.println("Животное " + Individual[3].getName() + " НЕ является клоном животного " + Individual[4].getName());
-            }
-            System.out.println("---------------------");
-            if (Individual[2].equals(Individual[7])) {
-                System.out.println("Животное " + Individual[2].getName() + " является клоном животного " + Individual[7].getName());
-            }
-            else {
-                System.out.println("Животное " + Individual[2].getName() + " НЕ является клоном животного " + Individual[7].getName());
-            }
-*/
+
             System.out.println("---------------------");
             System.out.println("сравниваю 1 и 2: " + Individual[0].equals(Individual[1]));
             System.out.println("сравниваю 1 и 3: " + Individual[0].equals(Individual[2]));

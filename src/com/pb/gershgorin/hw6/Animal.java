@@ -23,19 +23,6 @@ public class Animal {
         return location;
     }
 
-
- /*   public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setFood(String food) {
-        this.food = food;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-*/
     public void makeNoise() {
         System.out.print(getName() + " шумит: ");
     }

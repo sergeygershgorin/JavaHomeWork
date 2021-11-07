@@ -20,10 +20,6 @@ public class Horse extends Animal{
         return volume;
     }
 
-  /*  public void setVolume(String volume) {
-        this.volume = volume;
-    }
-*/
     @Override
     public String getName() {
         return "Лошадка " + super.getName();
