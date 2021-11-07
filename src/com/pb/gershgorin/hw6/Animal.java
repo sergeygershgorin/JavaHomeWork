@@ -5,23 +5,46 @@ public class Animal {
     private String food;
     private String location;
 
-    public Animal (String name) {
+    public Animal(String name, String food, String location) {
         this.name = name;
+        this.food = food;
+        this.location = location;
     }
 
     public String getName() {
         return name;
     }
 
-     public void makeNoise(){
-        System.out.println(name + " шумит");
+    public String getFood() {
+        return food;
     }
 
-    public void eat(){
-        System.out.println(name + " кушает");
+    public String getLocation() {
+        return location;
     }
 
-    public void sleep(){
-        System.out.println(name + " спит");
+
+ /*   public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setFood(String food) {
+        this.food = food;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+*/
+    public void makeNoise() {
+        System.out.print(getName() + " шумит: ");
+    }
+
+    public void sleep() {
+        System.out.println(getName() + " обитает: " + location);
+    }
+
+    public void eat() {
+        System.out.println(getName() + " кушает: " + food);
     }
 }
