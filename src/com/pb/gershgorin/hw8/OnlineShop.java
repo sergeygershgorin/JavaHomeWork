@@ -13,15 +13,13 @@ public class OnlineShop {
             String password = scan.nextLine();
             System.out.println("Подтвердите пароль");
             String passwordConfirm = scan.nextLine();
-
             auth.signUp(login, password, passwordConfirm);
 
             System.out.println(System.lineSeparator() +"Для входа на сайт ведите логин");
-            String login_1 = scan.nextLine();
+            String loginLogin = scan.nextLine();
             System.out.println("Введите пароль");
-            String password_1 = scan.nextLine();
-
-            auth.signIn(login_1, password_1);
+            String passwordLogin = scan.nextLine();
+            auth.signIn(loginLogin, passwordLogin);
         } catch (WrongLoginException | WrongPasswordException e){
             e.printStackTrace();
         }
