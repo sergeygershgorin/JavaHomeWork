@@ -36,11 +36,7 @@ public class NumBox <T extends Number>{
         return sum;
     }
 
-    public double average() {
-        return sum() / size;
-    }
-
-    public T max() {
+     public T max() {
         double max = Double.MIN_VALUE;
         int maxIndex = 0;
         for (int i = 0; i < size; ++i) {
@@ -50,5 +46,8 @@ public class NumBox <T extends Number>{
             }
         }
         return numBoxes[maxIndex];
+    }
+    public double average() {
+        return sum() / size;
     }
 }
